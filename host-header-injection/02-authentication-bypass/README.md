@@ -74,6 +74,3 @@ To resolve this issue and prevent Host Header Injection in access control logic:
 * **Do Not Rely on Host Headers for Security:** Base access control decisions strictly on authenticated user sessions, roles, or verified server-side network attributes (e.g., actual client IP).
 * **Restricted Network Interfaces:** Protect internal endpoints like `/admin` using network-level controls (e.g., firewall rules or internal-only binding) rather than application-level HTTP header inspection.
 * **Host Header Whitelisting:** Validate incoming `Host` headers against a strict whitelist of legitimate domains if dynamic header parsing is required.
-* **Restricted Network Interfaces:** Protect internal endpoints like /admin using network-level controls (e.g., firewall rules or internal-only binding) rather than application-level HTTP header inspection.
-
-* **Host Header Whitelisting:** Validate incoming Host headers against a strict whitelist of legitimate domains if dynamic header parsing is required.
