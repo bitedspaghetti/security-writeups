@@ -21,7 +21,7 @@ else:
 
 ## Steps to reproduce
 
-### 1. Intercept the GET request
+### Intercept the GET request
 
 Intercept the request using Burp Suite and inspect the HTTP headers.
 
